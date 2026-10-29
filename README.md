@@ -53,7 +53,7 @@ class Fahad:
   <br/>
   <img src="https://skillicons.dev/icons?i=fastapi,flask,django,nodejs,react,nextjs,flutter,mongodb,mysql,docker&perline=10" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=aws,azure,linux,git,github,bash,cmake,vscode,xcodeios,androidstudio&perline=10" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,linux,git,github,bash,cmake,vscode,androidstudio,postman&perline=10" />
 </p>
 
 <p align="center">
@@ -72,12 +72,12 @@ class Fahad:
 ## 🌟 Featured projects
 
 <p align="center">
-  <a href="https://github.com/fahadqaseem/vla-failure-detector"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fahadqaseem&repo=vla-failure-detector&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/fahadqaseem/dce-mri-temporal-super-resolution"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fahadqaseem&repo=dce-mri-temporal-super-resolution&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/fahadqaseem/trustworthy-terrarescue"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fahadqaseem&repo=trustworthy-terrarescue&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/fahadqaseem/michigan-power-outage-prediction"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fahadqaseem&repo=michigan-power-outage-prediction&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/fahadqaseem/intelligent-ids"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fahadqaseem&repo=intelligent-ids&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/fahadqaseem/fastapi_websocket_flutter_app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fahadqaseem&repo=fastapi_websocket_flutter_app&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/fahadqaseem/vla-failure-detector"><img width="400" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/pin-vla-failure-detector.svg" /></a>
+  <a href="https://github.com/fahadqaseem/dce-mri-temporal-super-resolution"><img width="400" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/pin-dce-mri-temporal-super-resolution.svg" /></a>
+  <a href="https://github.com/fahadqaseem/trustworthy-terrarescue"><img width="400" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/pin-trustworthy-terrarescue.svg" /></a>
+  <a href="https://github.com/fahadqaseem/michigan-power-outage-prediction"><img width="400" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/pin-michigan-power-outage-prediction.svg" /></a>
+  <a href="https://github.com/fahadqaseem/intelligent-ids"><img width="400" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/pin-intelligent-ids.svg" /></a>
+  <a href="https://github.com/fahadqaseem/fastapi_websocket_flutter_app"><img width="400" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/pin-fastapi_websocket_flutter_app.svg" /></a>
 </p>
 
 | Project | What it does | Stack |
@@ -94,8 +94,8 @@ class Fahad:
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=fahadqaseem&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fahadqaseem&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="190" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/stats.svg" alt="GitHub stats" />
+  <img height="190" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/top-langs.svg" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -103,11 +103,7 @@ class Fahad:
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=fahadqaseem&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=fahadqaseem&theme=tokyo-night&hide_border=true&area=true" />
+  <img width="100%" src="https://raw.githubusercontent.com/fahadqaseem/fahadqaseem/output/activity.svg" />
 </p>
 
 ---
