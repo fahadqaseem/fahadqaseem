@@ -173,6 +173,8 @@ def langs_card(u):
     for r in u["repositories"]["nodes"]:
         for e in r["languages"]["edges"]:
             n = e["node"]["name"]
+            if n in {"Rich Text Format", "TeX", "Makefile", "Procfile"}:
+                continue
             sizes[n] += e["size"]
             colors[n] = e["node"]["color"] or LANG_COLORS.get(n, MUTED)
     top = sizes.most_common(8)
