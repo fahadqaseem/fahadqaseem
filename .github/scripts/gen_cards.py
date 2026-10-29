@@ -20,6 +20,15 @@ FEATURED = [
     "fastapi_websocket_flutter_app",
 ]
 
+FALLBACK = {
+    "vla-failure-detector": "Finds the point of no return in robot manipulation rollouts for VLA policies.",
+    "dce-mri-temporal-super-resolution": "Diffusion model reconstructing missing contrast timepoints in breast DCE-MRI.",
+    "trustworthy-terrarescue": "Trustworthy vision-language model for search and rescue terrain analysis.",
+    "michigan-power-outage-prediction": "Weather-informed power outage risk forecasting with spatio-temporal GNNs.",
+    "intelligent-ids": "Hybrid network intrusion detection with anomaly detection and supervised models.",
+    "fastapi_websocket_flutter_app": "Real-time IoT monitoring with FastAPI WebSockets and a 6-platform Flutter app.",
+}
+
 BG, BORDER = "#1a1b27", "#2a2e45"
 TITLE, TEXT, ACCENT, MUTED = "#70a5fd", "#c0caf5", "#bf91f3", "#7a83a8"
 TEAL = "#38bdae"
@@ -204,7 +213,7 @@ def wrap(text, n=52, lines=2):
 
 def pin_card(r):
     lang = r["primaryLanguage"] or {"name": "", "color": MUTED}
-    desc = "".join(f'<text x="24" y="{66 + i*18}" class="l">{escape(t)}</text>' for i, t in enumerate(wrap(r["description"])))
+    desc = "".join(f'<text x="24" y="{66 + i*18}" class="l">{escape(t)}</text>' for i, t in enumerate(wrap(r["description"] or FALLBACK.get(r["name"]))))
     foot = ""
     if lang["name"]:
         foot += f'<circle cx="30" cy="112" r="6" fill="{lang["color"] or MUTED}"/><text x="42" y="116" class="m" style="font-size:12px">{escape(lang["name"])}</text>'
